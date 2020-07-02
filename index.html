@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pic gal</title>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- Header Start -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg shadow-lg fixed-top" style="background-color: rgba(40, 40, 40, 0.5);">
+  <img class="navbar-brand d-none d-lg-block d-xl-block dklogo" src="logo.png">
+  <img class="navbar-brand dkmain" src="name.png">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto justify-content-end">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#achi">Achievements</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Captures
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#poit">Poitrates</a>
+          <a class="dropdown-item" href="#gest">Gestures</a>
+          <a class="dropdown-item" href="#mac">Macro</a>
+          <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#scen">Scenes</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+   
+  </div>
+</nav>
+
+<!-- Header End -->
+
+<!-- Home Start -->
+
+    <section>
+          <div class="line text-center">        
+              <br><br>
+              
+              <br>
+              <p class="margin-bottom-0 text-size-20 text-light" style="font-family: URW Chancery L, cursive"> <span class="text-size-80" style=" font-size: 60px; font-style: italic; font-family: Brush Script MT, Brush Script Std, cursive">Darshan Kusumakar</span> <br>I am photographer that loves to take photos of scenic beauties, people and wild life.<br>
+              I love using diffferent resolutions.</p>
+           </div>
+
+          <form action="#" class="form-inline main_head3">
+            <input class="form-control mr-sm-2" type="search" id="search" placeholder="Explore Wildlife" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit button"  onclick="searchPic()">Explore</button>
+          </form>
+          <div class="grid1" id="result">
+  </div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>   
+
+<!-- Home End -->
+
+<!-- Achivements Start -->
+
+  <section class="achiv" id="achi">
+    <div class="achiv">
+      <center>
+        <img class="center" src="mix.png">
+      </center>
+    </div>
+  </section>
+
+ <br><br>
+
+<!-- Achivements End -->
+
+<!-- Carousel Start -->
+
+<section id="poit" class="karo">
+ <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+ 
+  <center>  
+  <div  class="carousel-inner">
+    <div id=" poit" class="carousel-item active">
+      <img id="poit" src="portrate.jpg" class="d-block w-80" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 style=" color: rgba(0,0,0,0.8); font-family: URW Chancery L, cursive; font-weight: bold;  ">Poitrates</h3>
+        <p style=" color: rgba(0,0,0,0.8); ">A full-body portrait doesn’t include as much of the surroundings, drawing your total attention to the subject.</p>
+      </div>
+    </div>
+    <div id=" gest"  class="carousel-item">
+      <img id="gest" src="gesture.jpg" class="d-block w-80" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 style=" font-family: URW Chancery L, cursive; font-weight: bold; ">Gestures</h3>
+        <p>A simple gesture brings your subject to life, making your portraits more dynamic.</p>
+      </div>
+    </div>
+    <div id=" mac" class="carousel-item">
+      <img id="mac" src="macro.jpg" class="d-block w-80" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 style="color: rgba(0,0,0,0.8); font-family: URW Chancery L, cursive; font-weight: bold;">Macro</h3>
+        <p>Expanding your own range in photography helps you tell a better story with your images.</p>
+      </div>
+    </div>
+    <div id=" scen" class="carousel-item">
+      <img id="scen" src="scene.jpg" class="d-block w-80" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 style="color: rgb(255,255,255); font-family: URW Chancery L, cursive; font-weight: bold;  ">Scenes</h3>
+        <p>Portraits include your subject in its surroundings, adding a storytelling element to your photographs SCENE.</p>
+      </div>
+    </div>
+    </center>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+<br>
+<br>  
+
+<!-- Carousel End -->
+
+<!-- Contact Start -->
+
+  <br>
+<section class="foot"> 
+
+<footer id="contact">
+	<nav class="shadow-lgnavbar-expand-lg navbar-light bg shadow-lg bg-lite"> <h3 align="center" style="color: rgb(255,255,255); font-family: URW Chancery L, cursive; font-weight: bold;">Contact</h3>
+    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelogfgpe" aria-hidden="true"><h4 align="center">Get in Touch..</h4> <br></i></a></li>
+		<ul class="nav nav-fill nav-light shadow-lg">
+  			<li class="nav-item"><a class="nav-link" href="#"><i aria-hidden="true"><h5 style=" font-size: 40px; font-style: italic; font-family: Brush Script MT, Brush Script Std, cursive">Darshan Kusumakr</h5> <h6>Wild Life Photographer</h6><br></i></a></li>
+  			<li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-map-marker" aria-hidden="true">  Indore,INDIA <br></i></a></li>
+ 			<li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-phone" aria-hidden="true">  +91 860 251 9202</i></a></li>
+  			<li class="nav-item social1"><a class="nav-link" href="#">
+          <i class="fa fa-facebook"></i></a></li>
+          <li class="nav-item social1"><a class="nav-link" href="#">
+          <i class="fa fa-twitter"></i></a></li>
+          <li class="nav-item social1"><a class="nav-link" href="#">
+          <i class="fa fa-instagram"></i></a>
+          <br></li></ul>
+          <ul class="nav nav-fill nav-light shadow-lg">
+          <li class="nav-item social1"><a class="nav-link" href="#">
+          <i class="fa fa-envelope" style="color: rgba(0,234,255,0.7);"></i></a></li>
+          <li class="nav-item social1"><a class="nav-link" href="#">
+          <i class="fa fa-google-plus" style="color: rgba(0,234,255,0.7);"></i></a></li>
+          <li class="nav-item social1"><a class="nav-link" href="#">
+          <i class="fa fa-globe" style="color: rgba(0,234,255,0.7);"></i></a>
+  				</li>
+  			<li class="nav-item"><a class="nav-link"></a></li>
+		</ul>
+
+<!-- Contact End -->
+
+ <!-- Footer Start -->
+
+    <h5 align="center" style="color: rgb(255,255,255); font-family: URW Chancery L, cursive;"><small>&copy;
+      Copyright <script>document.write(new Date().getFullYear());</script> | Darshan Kusumakar </small></h5>
+	</nav>
+</footer>
+</section>
+
+ <!-- Footer Start -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+.dkmain{
+  height:  40%;
+  width:  40%;
+}
+.dklogo{
+	height: 5%;
+	width: 5%;
+	float: 	left;	
+}
+
+.back-g{
+  background: url(bg.png);
+  height: 700px;
+  filter: 	blur(2px);
+  background-size: cover;
+  background-position: center;	
+}
+.navbar-nav{
+	float: right;
+	color: rgb(0,0,0);
+  padding-right: 10%;
+}
+.navbar-nav ul li a{
+	color: rgb(0,0,0);
+	float: right;
+}
+
+.nav-item ul li a{
+	float: right;
+	color: rgb(255,255,255);
+}
+.nav-link a{
+	float: right;
+	color: rgb(0,0,0);
+}
+img{
+  align : center;
+	width: 	1000px;
+  height:   550PX; 
+	display: 	block;
+  position: center
+  	
+}
+.grid{
+	display: 	grid;	
+	grid-template-columns: 1fr;
+
+}
+@nomedia(min-width: 60px).grid{
+
+	grid-template-columns: repeat(	2,1fr);
+	grid-gap: 5px;
+}
+@nomedia(min-width: 90px).grid{
+
+	grid-template-columns: repeat(	4,1fr);
+	grid-gap: 5px;
+}
+.nav-foot{
+	float: 	right;	
+}
+.social1 a i{
+	float: right;
+	padding: 10px;
+    list-style: none;
+}
+.social1 ul{
+	float: right;
+	list-style: none;
+}
+.social1 ul li{
+	position: relative;
+	float: right;
+	list-style: none;
+	margin: 1PX;
+	padding: 10PX;
+}
+.right-foot{
+	position: relative;
+	padding: 10px;
+	float: right;
+}
+body {
+	background: url(bg.png);
+	background-repeat: repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0,0,0,0.5);
+
+    margin: 0;
+  	height: 700px;
+  	background-size: cover;
+  	background-position: center;  
+    margin: 0;
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+    .grid {
+        line-height: 0;
+        margin-top: 10px;
+
+        -webkit-column-count: 5;
+        -webkit-column-gap: 0px;
+        -moz-column-count: 5;
+        -moz-column-gap: 0px;
+        column-count: 4;
+        column-gap: 10px;
+    }
+    .grid img{
+    	width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+}
+.grid1{
+        line-height: 0;
+        margin-top: 10px;
+
+        -webkit-column-count: 5;
+        -webkit-column-gap: 0px;
+        -moz-column-count: 5;
+        -moz-column-gap: 0px;
+        column-count: 4;
+        column-gap: 10px;
+
+}
+#result{
+        line-height: 0;
+        margin-top: 10px;
+
+        -webkit-column-count: 5;
+        -webkit-column-gap: 0px;
+        -moz-column-count: 5;
+        -moz-column-gap: 0px;
+        column-count: 4;
+        column-gap: 10px;
+}
+.p{
+  margin-top: 400px;
+}
+
+.scl{
+  width: 100%;
+  position: relative;
+  display: flex;
+  float:  center;
+  position: center;
+}
+
+.achiv{
+  margin-top: 16650px;
+  position: relative;
+  height: 400px;
+  width:  auto; 
+
+  background-blend-mode: darken;
+  background-color: rgba(0,0,0,0.5);
+}
+.achiv img{
+  background-color: rgb(0,0,0);
+  width:  1000px;
+  height:   620px;
+  display:  block;
+  position: center
+    
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center img{
+  
+  width:  1000px;
+  height:   620px;
+  display:  block;
+  position: center
+}
+
+.background-dark, .background-dark p, a.background-dark, a.background-dark:visited, a.background-dark:link, .background-dark a, .background-dark a:link, .background-dark a:visited, .background-dark a:hover, .background-dark a:active, .primary-color-dark .background-primary, .primary-color-dark .background-primary p, .primary-color-dark a.background-primary, .primary-color-dark a.background-primary:visited, .primary-color-dark a.background-primary:link, .primary-color-dark a.background-primary:visited, .primary-color-dark .background-primary a, .primary-color-dark .background-primary a:link, .primary-color-dark .background-primary a:visited, .primary-color-dark .background-primary a:hover, .primary-color-dark .background-primary a:active {
+    color: #777;
+}
+.karo{
+  padding-top: 10%
+}
+.contact{
+  background-size: cover;
+  height: 200px;
+  box-shadow: 4px 4px 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact_icon{
+  font-size: 200%;
+  padding: 8px;
+  color: #1c1818;
+  padding-top: 2%
+  margin-left: 1%;
+  text-shadow: 4px 4px 4px #969696;
+}
